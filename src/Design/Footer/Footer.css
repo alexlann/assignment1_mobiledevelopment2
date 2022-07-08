@@ -1,0 +1,10 @@
+footer {
+    background: #fff;
+    margin: 0;
+    padding: 10px 5%;
+    border-top: 2px solid rgb(53, 221, 151);
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

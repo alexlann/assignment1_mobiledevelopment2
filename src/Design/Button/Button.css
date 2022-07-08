@@ -1,0 +1,48 @@
+.btn {
+    border-radius: 1rem;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: 0.2s color ease-in;
+}
+
+.btn--primary {
+    background: rgb(53, 221, 151);
+}
+
+.btn--warning {
+    background: rgb(216, 68, 63);
+}
+
+.btn--primary:hover {
+    background: rgb(46, 180, 124);
+}
+
+.btn--warning:hover {
+    background: rgb(196, 48, 43);
+}
+
+.btn--passive {
+    cursor: default;
+    background-color: #bbb;
+}
+
+.btn--passive:hover {
+    background-color: #bbb;
+}
+
+.btn-margin-right {
+    margin-right: 10px;
+}
+
+.detail__btn-close {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
